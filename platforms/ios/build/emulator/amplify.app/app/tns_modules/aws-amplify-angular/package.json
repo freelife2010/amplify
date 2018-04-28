@@ -1,0 +1,70 @@
+{
+  "_from": "aws-amplify-angular",
+  "_id": "aws-amplify-angular@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-VAAcJ986RdpS+uLxZH3FFfMF0iEYrDT1msaEaCUXCzIpqPfp+34fuC7SftWUP+bdUSgvCqTBWBpJBuBc3f2MgQ==",
+  "_location": "/aws-amplify-angular",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "aws-amplify-angular",
+    "name": "aws-amplify-angular",
+    "escapedName": "aws-amplify-angular",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/aws-amplify-angular/-/aws-amplify-angular-0.1.0.tgz",
+  "_shasum": "33ea94af43f6bf584f2406f133d6c72db62e4f46",
+  "_spec": "aws-amplify-angular",
+  "_where": "/Workspace/Pravesh/amplify",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/lodash": "^4.14.106"
+  },
+  "deprecated": false,
+  "description": "AWS Amplify Angular Components",
+  "devDependencies": {
+    "@angular/common": "^5.2.6",
+    "@angular/compiler": "^5.2.9",
+    "@angular/core": "^5.2.6",
+    "@angular/platform-browser": "^5.2.9",
+    "@angular/platform-browser-dynamic": "^5.2.9",
+    "@types/node": "^9.4.6",
+    "@types/paho-mqtt": "^1.0.3",
+    "@types/zen-observable": "^0.5.3",
+    "awesome-typescript-loader": "^4.0.1",
+    "aws-amplify": "^0.3",
+    "compression-webpack-plugin": "^1.1.11",
+    "jasmine": "^2.99.0",
+    "jasmine-core": "^2.99.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage-istanbul-reporter": "^1.4.2",
+    "karma-jasmine": "^1.1.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-typescript": "^3.0.12",
+    "mocha": "^5.1.0",
+    "rxjs": "^5.5.6",
+    "zone": "^0.3.4",
+    "zone.js": "^0.8.26"
+  },
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "name": "aws-amplify-angular",
+  "scripts": {
+    "build": "tsc",
+    "test": "karma start karma.conf.js",
+    "watch": "tsc -w"
+  },
+  "version": "0.1.0"
+}
